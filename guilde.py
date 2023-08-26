@@ -7,6 +7,7 @@ import menuFarmRss as rss
 import menuMarket as mk
 import menuKillBoss as kb
 import menuFindBoss as fb
+import menuRelics as rl
 class Guide:
     def __init__(self):
         # Tạo giao diện
@@ -80,6 +81,9 @@ class Guide:
         
         #menu findBoss
         fb.findBossMenu(self.tabControl)
+        
+        #menu relics
+        rl.relicsMenu(self.tabControl)
         
         self.tabControl.pack(expand=1, fill='both', pady=1, padx=1)
         
