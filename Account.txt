@@ -1,0 +1,24 @@
+Acc: 0
+ip: 127.0.0.1
+port: 5555
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 1
+ip: 127.0.0.1
+port: 5575
+doAuto: 2
+Champ: 2
+filter: 1
+meat: 6
+
+Acc: 2
+ip: 127.0.0.1
+port: 5585
+doAuto: 3
+Champ: 3
+filter: 0
+meat: 7
+

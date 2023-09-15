@@ -1,0 +1,96 @@
+Acc: 0
+ip: 127.0.0.1
+port: 5555
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 1
+ip: 127.0.0.1
+port: 5575
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 2
+ip: 127.0.0.1
+port: 5585
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 3
+ip: 127.0.0.1
+port: 5595
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 4
+ip: 127.0.0.1
+port: 5605
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 5
+ip: 127.0.0.1
+port: 5615
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 6
+ip: 127.0.0.1
+port: 5625
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 7
+ip: 127.0.0.1
+port: 5635
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 8
+ip: 127.0.0.1
+port: 5645
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 9
+ip: 127.0.0.1
+port: 5655
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 10
+ip: 127.0.0.1
+port: 5665
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+
+Acc: 11
+ip: 127.0.0.1
+port: 0
+doAuto: 1
+Champ: 1
+filter: 0
+meat: 5
+

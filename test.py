@@ -1,17 +1,14 @@
-class Variable:
-    def __init__(self):
-        self.shared_variable = 5
-    
-class SubclassA(Variable):
-    def __init__(self):
-        super().__init__()  # Gọi __init__() của lớp cha Variable
-        Variable.shared_variable = 10  # Ghi đè giá trị trong lớp con
-        
-cha = Variable()
+import multiprocessing as mp
 
-print("Initial shared_variable in cha:", cha.shared_variable)  # In ra: 5
+# Tạo mảng với kích thước 3 kiểu integer
+arr = mp.Array('i', [1, 2, 3])
 
-con_a = SubclassA()
+# Khóa mảng trước khi truy cập
+with arr.get_lock():
+    # Thay đổi giá trị của phần tử tại vị trí index 1 thành 42
+    arr[1] = 42
 
-print("shared_variable in con_a after update:", con_a.shared_variable)  # In ra: 10
-print("shared_variable in cha after update:", cha.shared_variable)  # In ra: 10
+# Khi ra khỏi khối với "with", mảng đã được mở khóa tự động
+
+# In giá trị của mảng sau khi đã thay đổi
+print(arr[:])
